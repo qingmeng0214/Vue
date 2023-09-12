@@ -1,0 +1,124 @@
+卷 新加卷 的文件夹 PATH 列表
+卷序列号为 6248-499A
+F:.
+│  App.vue
+│  list.txt
+│  main.js
+│  
+├─assets
+│  ├─css
+│  │      base.css
+│  │      normalize.css
+│  │      variable.less
+│  │      
+│  ├─data
+│  │      homeNav.js
+│  │      
+│  └─img
+│          bg.jpg
+│          error.jpg
+│          home_logo.png
+│          loginbg.jpg
+│          logo.png
+│          placeholder.png
+│          result.jpg
+│          
+├─components
+│  ├─common
+│  │      CommentList.vue
+│  │      MainNavBar.vue
+│  │      MyComment.vue
+│  │      NavBar.vue
+│  │      ReusableSongList.vue
+│  │      Scroll.vue
+│  │      SingerList.vue
+│  │      SongsOfSongList.vue
+│  │      
+│  └─content
+│          PlayBar.vue
+│          ProgressBar.vue
+│          RankAndUserLists.vue
+│          
+├─model
+│      song.js
+│      
+├─network
+│      home.js
+│      login.js
+│      mv.js
+│      rank.js
+│      request.js
+│      search.js
+│      singers.js
+│      songlist.js
+│      user.js
+│      
+├─router
+│      index.js
+│      
+├─store
+│      actions.js
+│      getters.js
+│      index.js
+│      mutation-type.js
+│      mutations.js
+│      
+├─utils
+│      utils.js
+│      
+└─views
+    ├─home
+    │  │  Home.vue
+    │  │  
+    │  └─childComps
+    │          HomeSwiper.vue
+    │          NewSongs.vue
+    │          RecommendMv.vue
+    │          RecommendSingers.vue
+    │          RecommendSongList.vue
+    │          
+    ├─login
+    │  │  Login.vue
+    │  │  
+    │  └─childComps
+    │          LoginBox.vue
+    │          
+    ├─mv
+    │  │  Mv.vue
+    │  │  
+    │  └─childComps
+    │          AllMv.vue
+    │          
+    ├─mvDetail
+    │      MvDetail.vue
+    │      
+    ├─notfound
+    │      NotFound.vue
+    │      
+    ├─rank
+    │      Rank.vue
+    │      
+    ├─search
+    │      Search.vue
+    │      
+    ├─singers
+    │  │  Singers.vue
+    │  │  
+    │  └─childComps
+    │          AllSingers.vue
+    │          
+    ├─songlist
+    │  │  SongList.vue
+    │  │  
+    │  └─childComps
+    │          SongListNavBar.vue
+    │          
+    ├─songListDetail
+    │      SongListDetail.vue
+    │      
+    └─user
+        │  User.vue
+        │  
+        └─childComps
+                UserInfo.vue
+                
